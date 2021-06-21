@@ -46,6 +46,7 @@
   width: 373px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 70px;
 }
 
 @media print, screen and (min-width: 960px) {
@@ -140,6 +141,14 @@
   padding-left: 25px;
 }
 
+.service .inner .container .service_text .price .item:nth-child(4) span {
+  padding-left: 100px;
+}
+
+.service .inner .container .service_text .price .item:nth-child(5) span {
+  padding-left: 100px;
+}
+
 .service .inner .container .service_text .price .item2 {
   color: black;
   font-size: 12px;
@@ -210,6 +219,7 @@
     width: 300px;
     padding-left: 0;
     padding-right: 0;
+    margin-top: 0;
   }
   .service .inner .container .pic img {
     height: 200px;
@@ -225,6 +235,12 @@
     padding-left: 0;
   }
   .service .inner .container .service_text .price .item:nth-child(3) span {
+    padding-left: 0;
+  }
+  .service .inner .container .service_text .price .item:nth-child(4) span {
+    padding-left: 0;
+  }
+  .service .inner .container .service_text .price .item:nth-child(5) span {
     padding-left: 0;
   }
 }
